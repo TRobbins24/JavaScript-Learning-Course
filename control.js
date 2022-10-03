@@ -44,14 +44,41 @@
 //   console.log("That is a lot of ninjas");
 // }
 
-const password = 'pass';
+// const password = 'password';
 
-if(password.length >= 12){
-  console.log('that password is super strong');
-} else if (password.length >= 8) {
-  console.log('That is long enough.')
-} else {
-  console.log('That is not long enough.')
+// if (password.length >= 12 && password.includes('@')) {
+//   console.log('that password is super strong');
+// } else if (password.length >= 8 || password.includes('@') && password.length > 5) {
+//   console.log('That is strong enough.')
+// } else {
+//   console.log('That is not strong enough.')
+// }
+
+// //logical operators - OR || and AND && 
+
+//logical not (!)
+
+// let user = false;
+
+// if(!user){
+//   console.log('you must be logged in to continue');
+// }
+
+// console.log(!true);
+// console.log(!false);
+
+const scores = [50, 25, 0, 30, 100, 20, 10];
+for(let i = 0; i < scores.lengthl i++){
+
+  if(scores[i] === 0){
+    continue;
+  }
+
+
+  
+  console.log('your score: ', scores[i])
+
+  if(scores[i] === 100){
+    console.log("co");
+  }
 }
-
-//logical operators - OR || and AND 4&&
