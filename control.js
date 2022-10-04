@@ -67,18 +67,60 @@
 // console.log(!true);
 // console.log(!false);
 
-const scores = [50, 25, 0, 30, 100, 20, 10];
-for(let i = 0; i < scores.lengthl i++){
+// const scores = [50, 25, 0, 30, 100, 20, 10];
+// for(let i = 0; i < scores.lengthl i++){
 
-  if(scores[i] === 0){
-    continue;
-  }
+//   if(scores[i] === 0){
+//     continue;
+//   }
 
 
-  
-  console.log('your score: ', scores[i])
 
-  if(scores[i] === 100){
-    console.log("co");
-  }
-}
+//   console.log('your score: ', scores[i])
+
+//   if(scores[i] === 100){
+//     console.log("you got the top score!");
+//     break;
+//   }
+// }
+
+// const grade = 'gf';
+
+// switch(grade){
+//   case 'A':
+//     console.log('you got an A!');
+//     break;
+//   case 'B':
+//     console.log('you got an B!');
+//     break;
+//   case 'C':
+//     console.log('you got an C!');
+//     break;
+//   case 'D':
+//     console.log('you got an D!');
+//     break;
+//   case 'E':
+//     console.log('you got an E!');
+//     break;
+//   default:
+//     console.log('not a valid grade');
+// }
+
+//variable & block scope
+
+// let age = 30;
+
+// if (true) {
+//   const age = 40;
+//   const name = 'shaun'
+//   console.log('inside 1st code block: ', age, name);
+
+//   if (true) {
+//     const age = 50;
+//     console.log('inside 2nd code block: ', age);
+//   }
+
+// }
+
+// console.log('outside code block: ', age);
+
