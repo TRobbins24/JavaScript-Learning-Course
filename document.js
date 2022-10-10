@@ -50,16 +50,47 @@
 //   content.innerHTML += `<p>${person}</p>`;
 // });
 
-const link = document.querySelector('a');
+// const link = document.querySelector('a');
 
-console.log(link.getAttribute('href'));
-link.setAttribute('href', 'https://www.youtube.com');
-link.innerText = 'The Youtube Website';
+// console.log(link.getAttribute('href'));
+// link.setAttribute('href', 'https://www.youtube.com');
+// link.innerText = 'The Youtube Website';
 
-const mssg = document.querySelector('p');
+// const mssg = document.querySelector('p');
 
-console.log(mssg.getAttribute('class'));
-mssg.setAttribute('class', 'success');
-mssg.setAttribute('style', 'color: green;');
+// console.log(mssg.getAttribute('class'));
+// mssg.setAttribute('class', 'success');
+// mssg.setAttribute('style', 'color: green;');
 
-//ENDED AT 36:09
+// const title = document.querySelector('h1');
+
+// //title.setAttribute('style', 'margin: 50px');
+
+// // console.log(title.style);
+// // console.log(title.stylel.color);
+
+// // title.style.margin = '50px';
+// // title.style.color = 'crimson';
+// // title.style.fontSize = '60px';
+
+// const content = document.querySelector('p');
+// console.log(content.classList);
+// content.classList.add('error');
+// content.classList.remove('success');
+
+const paras = document.querySelectorAll('p');
+
+paras.forEach(p => {
+  if (p.textContent.includes('error')) {
+    p.classList.add('error');
+  }
+
+  if (p.innerText.includes('success')) {
+    p.classList.add('success');
+  }
+});
+
+const title = document.querySelector('.title');
+
+title.classList.toggle('test');
+title.classList.toggle('test');
